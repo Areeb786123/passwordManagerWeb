@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your App Download</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>  
+    <header>
+        <div class="header-content">
+            <img src="icon.png" alt="App Icon" class="app-icon" onclick="openPopup()">
+            <p class="footer-text" data-popup="openPopUp">why we are not in PlayStore?</p>
+        </div>
+    </header>
+    
+
+    
+    <div id="openPopUp" class="popup">
+        <div class="popup-content">
+            <h2>Why we are not in PlayStore ?</h2>
+            <p>We would like to address why our app is not currently available on the Play Store. Our decision not to list our app on the Play Store stems from the privacy policies enforced by Google, particularly concerning the management of multiple user-created login and signup screens.
+
+                As per Google's policies, any app featuring a login functionality must undergo a review process. However, since our application does not store user credentials on external servers but rather within the app's local database, providing the necessary credentials for review poses a challenge.
+                
+                Rest assured, our team is exploring solutions to integrate cloud-based storage for enhanced security and convenience. Once this transition is complete, we will proceed with listing our app on the Play Store.
+                
+                We understand your concerns regarding safety and security, and we want to reassure you that safeguarding your data is our top priority.
+                
+                Thank you for your understanding and continued support.
+            </p>
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+    <div class="popup" id="carouselPopup">
+        <div class="carousel-container">
+          <div class="carousel">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image3.jpg" alt="Image 3">
+          </div>
+          <button class="prev-btn" onclick="prevSlide()">Previous</button>
+          <button class="next-btn" onclick="nextSlide()">Next</button>
+        </div>
+      </div>
+    
+<div class="container">
+    <h1 class="footer-text">Download PasswordManager</h1>
+    <p class="footer-text">Click the button below to download our amazing passward save app!</p><br>
+    <h1 href="#" class="download-btn" id="downloadBtn",  data-popup="carousel">Download Now</j1>
+</div>
+<footer>
+    <p class="footer-text">&copy; 2024 Your Company. All rights reserved.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
