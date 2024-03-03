@@ -1,1 +1,1 @@
-![Screenshot 2024-03-04 at 12 17 29 AM](https://github.com/Areeb786123/passwordManagerWeb/assets/56149022/60e1fc7e-256c-406d-8779-359b01786f05)
+![Screenshot 2024-03-04 at 12 18 28 AM](https://github.com/Areeb786123/passwordManagerWeb/assets/56149022/34db7f90-0c9d-4729-a7ef-d4269102ffef)
